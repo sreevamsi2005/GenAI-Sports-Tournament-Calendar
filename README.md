@@ -3,17 +3,6 @@
 
 ---
 
-## What this repo contains
-- `app.py` — Flask app exposing:
-  - `GET /api/tournaments` — JSON API (query params: `sport`, `level`, `limit`)
-  - `GET /api/tournaments/csv` — Download CSV
-  - A basic UI at `/` (index.html)
-- `db_schema.sql` — SQLite schema
-- `populate_db.py` — Load sample JSON into `tournaments.db`
-- `data/sample_tournaments.json` — Sample dataset (12 events)
-- `templates/index.html`, `static/app.js` — Simple UI
-- `sample_output.csv` — Example CSV export (you can re-generate)
-
 ---
 
 ## Sample Output
@@ -71,7 +60,5 @@ The application provides a clean, responsive web interface for browsing tourname
 
 
 ## Limitations 
-I attempted to fetch live up-to-date tournaments automatically for you but my web-fetching tool failed during preparation. Because the assignment requires upcoming real tournaments, please replace `data/sample_tournaments.json` with a verified dataset (either run the live_scrape_template.py with your API keys and then manually verify or use federation APIs). The code is intentionally designed so that swapping the JSON is trivial.
-
-If you'd like, I can re-run live collection for you now (fetch and produce a verified dataset) once I have the ability to access the web or if you provide API keys. Until then, the submission includes a realistic sample dataset and a reproducible pipeline for live updating.
+I attempted to fetch live up-to-date tournaments automatically for you but my web-fetching tool failed during preparation.Beacause of failure of fetching realtime updates but able to fetch from sample data used for this project .The code is intentionally designed so that swapping the JSON is trivial.
 
