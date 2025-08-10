@@ -19,7 +19,7 @@
 ---
 
 ## Sample Output
-[Sample Ouput](Sample Output.png)
+[Sample Output.png](Sample Output)
 ### Web UI Interface
 The application provides a clean, responsive web interface for browsing tournaments:
 
