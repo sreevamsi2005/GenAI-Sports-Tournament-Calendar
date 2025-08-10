@@ -1,0 +1,134 @@
+[
+  {
+    "sport": "Cricket",
+    "name": "Inter-University Cricket Championship 2025",
+    "level": "College/University",
+    "start_date": "2025-08-20",
+    "end_date": "2025-08-28",
+    "official_url": "https://example-univ-cricket.example.com",
+    "streaming_links": ["https://youtube.com/example-univ-cricket"],
+    "image_url": "https://via.placeholder.com/400x250?text=Cricket+Championship",
+    "summary": "A multi-university cricket tournament featuring 16 teams across the region, focusing on student athletes and talent scouting."
+  },
+  {
+    "sport": "Football",
+    "name": "State Youth Football Cup 2025",
+    "level": "State",
+    "start_date": "2025-09-05",
+    "end_date": "2025-09-12",
+    "official_url": "https://statefootball.example.org",
+    "streaming_links": ["https://facebook.com/state-football"],
+    "image_url": "https://via.placeholder.com/400x250?text=Football+Cup",
+    "summary": "State-level youth football cup with district winners from across the state competing for the title."
+  },
+  {
+    "sport": "Badminton",
+    "name": "Regional Badminton Open 2025",
+    "level": "Zonal/Regional",
+    "start_date": "2025-08-25",
+    "end_date": "2025-08-27",
+    "official_url": "https://regional-badminton.example.com",
+    "streaming_links": [],
+    "image_url": "https://via.placeholder.com/400x250?text=Badminton+Open",
+    "summary": "Open-level tournament for regional players; points distribution for national ranking hopefuls."
+  },
+  {
+    "sport": "Running",
+    "name": "City Half Marathon 2025",
+    "level": "City/Club",
+    "start_date": "2025-09-14",
+    "end_date": "2025-09-14",
+    "official_url": "https://city-run.example.org",
+    "streaming_links": ["https://youtube.com/city-half-marathon"],
+    "image_url": "https://via.placeholder.com/400x250?text=Half+Marathon",
+    "summary": "Mass participation half-marathon open to clubs and public with timed results and charity drives."
+  },
+  {
+    "sport": "Gym",
+    "name": "Inter-Club Fitness Challenge 2025",
+    "level": "Club/Academy",
+    "start_date": "2025-10-03",
+    "end_date": "2025-10-04",
+    "official_url": "https://fitness-challenge.example.com",
+    "streaming_links": [],
+    "image_url": "https://via.placeholder.com/400x250?text=Fitness+Challenge",
+    "summary": "A two-day strength and endurance contest between local gyms and fitness academies."
+  },
+  {
+    "sport": "Cycling",
+    "name": "Regional Track Cycling Meet 2025",
+    "level": "Regional",
+    "start_date": "2025-09-20",
+    "end_date": "2025-09-22",
+    "official_url": "https://cycling-meet.example.com",
+    "streaming_links": [],
+    "image_url": "https://via.placeholder.com/400x250?text=Cycling+Meet",
+    "summary": "Track cycling meet with sprint and endurance events for regional riders and clubs."
+  },
+  {
+    "sport": "Swimming",
+    "name": "State Aquatics Championship 2025",
+    "level": "State",
+    "start_date": "2025-08-30",
+    "end_date": "2025-09-02",
+    "official_url": "https://state-swim.example.org",
+    "streaming_links": [],
+    "image_url": "https://via.placeholder.com/400x250?text=Swimming+Championship",
+    "summary": "State-level aquatics event covering multiple swimming strokes and age categories."
+  },
+  {
+    "sport": "Kabaddi",
+    "name": "District Kabaddi League 2025",
+    "level": "District",
+    "start_date": "2025-09-10",
+    "end_date": "2025-09-15",
+    "official_url": "https://district-kabaddi.example.com",
+    "streaming_links": [],
+    "image_url": "https://via.placeholder.com/400x250?text=Kabaddi+League",
+    "summary": "District-level kabaddi league focusing on grassroots players and scouts."
+  },
+  {
+    "sport": "Yoga",
+    "name": "National Yoga Fest 2025",
+    "level": "National",
+    "start_date": "2025-10-12",
+    "end_date": "2025-10-14",
+    "official_url": "https://national-yogafest.example.org",
+    "streaming_links": ["https://youtube.com/national-yoga-fest"],
+    "image_url": "https://via.placeholder.com/400x250?text=Yoga+Fest",
+    "summary": "Three-day national festival featuring workshops, competitions and community sessions for yoga practitioners."
+  },
+  {
+    "sport": "Basketball",
+    "name": "Inter-Collegiate Basketball Trophy 2025",
+    "level": "College/University",
+    "start_date": "2025-09-25",
+    "end_date": "2025-09-30",
+    "official_url": "https://college-basketball.example.edu",
+    "streaming_links": ["https://twitch.tv/college-bball"],
+    "image_url": "https://via.placeholder.com/400x250?text=Basketball+Trophy",
+    "summary": "Inter-collegiate tournament for regional colleges to showcase basketball talent and scouting."
+  },
+  {
+    "sport": "Chess",
+    "name": "Open Rapid Chess Championship 2025",
+    "level": "National",
+    "start_date": "2025-08-22",
+    "end_date": "2025-08-24",
+    "official_url": "https://chess-open.example.com",
+    "streaming_links": ["https://lichess.org/event/example"],
+    "image_url": "https://via.placeholder.com/400x250?text=Chess+Championship",
+    "summary": "Open rapid-format chess event attracting national and international titled players."
+  },
+  {
+    "sport": "Table Tennis",
+    "name": "City Table Tennis Open 2025",
+    "level": "City/Club",
+    "start_date": "2025-09-02",
+    "end_date": "2025-09-04",
+    "official_url": "https://city-tt.example.org",
+    "streaming_links": [],
+    "image_url": "https://via.placeholder.com/400x250?text=Table+Tennis+Open",
+    "summary": "City open table tennis competition for club and school players, with coaching clinics."
+  }
+] 

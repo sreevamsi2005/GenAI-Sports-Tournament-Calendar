@@ -1,0 +1,51 @@
+<!-- templates/index.html -->
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>GenAI Tournament Calendar — Demo</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 24px; }
+    .controls { margin-bottom: 12px; }
+    .card { border: 1px solid #ddd; padding: 12px; margin-bottom: 12px; border-radius: 6px; display:flex; gap:12px;}
+    .thumb { width: 160px; height: 100px; object-fit:cover; border-radius:4px; }
+    .meta { flex:1; }
+    .sport { font-weight:600; color:#2a6; }
+    .small { font-size:0.9em; color:#666; }
+  </style>
+</head>
+<body>
+  <h2>GenAI Tournament Calendar — Demo</h2>
+  <div class="controls">
+    <label>Sport:
+      <select id="sport">
+        <option value="">All</option>
+        <option>Cricket</option>
+        <option>Football</option>
+        <option>Badminton</option>
+        <option>Running</option>
+        <option>Gym</option>
+        <option>Cycling</option>
+        <option>Swimming</option>
+        <option>Kabaddi</option>
+        <option>Yoga</option>
+        <option>Basketball</option>
+        <option>Chess</option>
+        <option>Table Tennis</option>
+      </select>
+    </label>
+    <label style="margin-left:12px">Level:
+      <select id="level"><option value="">All</option>
+      <option>Corporate</option><option>School</option><option>College/University</option><option>Club/Academy</option><option>District</option><option>State</option><option>Zonal/Regional</option><option>National</option><option>International</option>
+      </select>
+    </label>
+    <button id="filterBtn" style="margin-left:10px">Filter</button>
+    <a href="/api/tournaments/csv" style="margin-left:12px">Download CSV</a>
+  </div>
+
+  <div id="results"></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html> 
